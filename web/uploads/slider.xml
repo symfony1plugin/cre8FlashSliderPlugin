@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<slider 
+	width="468" 
+	height="268" 
+	autoplay="1" 
+	delay="5000" 
+	showButtons="1" 
+	showSlideButtons="1"
+	buttonColor="0x333333"
+	buttonRolloverColor="0x00B6FF"
+>
+	<image source="images/imgslide1.jpg" target="#" />
+	<image source="images/imgslide2.jpg" target="http://www.learning4legals.tv" />
+	<image source="images/imgslide1.jpg" target="#" />
+</slider>

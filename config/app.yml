@@ -1,0 +1,11 @@
+all:
+  cre8_flash_slider:
+    width:                468
+    height:               268
+    autoplay:             1
+    delay:                5000
+    showButtons:          1
+    showSlideButtons:     1
+    buttonColor:          '0x333333'
+    buttonsRolloverColor: '0x00B6FF'
+  

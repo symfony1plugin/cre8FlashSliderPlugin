@@ -1,0 +1,9 @@
+propel: 
+  _attributes:    { package: plugins.cre8FlashSliderPlugin.lib.model }
+
+  cre8_flash_slider:
+    id:           ~
+    name:         { type: varchar(60), required: true }
+    filename:     { type: varchar(128), required: true }
+    url:          { type: varchar(255) }
+  
