@@ -205,7 +205,7 @@
 			loader.addEventListener(Event.COMPLETE, parseXml);
 			
 			//Load the "image.xml" file
-			loader.load(new URLRequest("slider.xml")); 
+			loader.load(new URLRequest("/uploads/cre8_flash_slider_data.xml"));
 		}
 		
 		/**

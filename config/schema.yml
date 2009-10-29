@@ -6,4 +6,5 @@ propel:
     name:         { type: varchar(60), required: true }
     filename:     { type: varchar(128), required: true }
     url:          { type: varchar(255) }
+    rank:         { type: integer, default: 10 }
   

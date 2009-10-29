@@ -17,5 +17,13 @@ class cre8FlashSliderPluginConfiguration extends sfPluginConfiguration
    */
   public function initialize()
   {
+    if (in_array('cre8FlashSlider', sfConfig::get('sf_enabled_modules', array())))
+    {
+       $this->dispatcher->connect('routing.load_configuration', array('cre8FlashSliderRouting', 'listenToRoutingLoadConfigurationEvent'));
+    }
+    if (in_array('cre8FlashSliderAdmin', sfConfig::get('sf_enabled_modules', array())))
+    {
+       $this->dispatcher->connect('routing.load_configuration', array('cre8FlashSliderRouting', 'addRouteForAdmin'));
+    }
   }
 }

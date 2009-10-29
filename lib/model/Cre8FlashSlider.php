@@ -1,5 +1,5 @@
 <?php
 
-class Cre8FlashSlider extends BaseCre8FlashSlider
+class Cre8FlashSlider extends PluginCre8FlashSlider
 {
 }

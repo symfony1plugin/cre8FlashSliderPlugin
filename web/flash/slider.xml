@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slider width="468" height="268" autoplay="1" delay="5000" showButtons="1" showSlideButtons="1" buttonColor="0x333333" buttonRolloverColor="0x00B6FF">
+  <image source="/uploads/d329a6d870810c1c0d28300a9ed39cbfdc196aa2.jpg" target="#"/>
+  <image source="/uploads/7f84d7cbf0d377066da1d447a58b706b7acdb3b3.jpg" target="#"/>
+</slider>
